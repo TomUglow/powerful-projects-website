@@ -52,7 +52,6 @@ ul {
   color: var(--accent-color);
   text-decoration: underline;
   text-underline-offset: 6px;
-  outline: 2px solid var(--accent-color);
   outline-offset: 2px;
 }
 
@@ -86,7 +85,6 @@ ul {
 .dropdown-content a:hover,
 .dropdown-content a:focus {
   background-color: #f1f1f1;
-  outline: 2px solid var(--accent-color);
   outline-offset: 2px;
 }
 
