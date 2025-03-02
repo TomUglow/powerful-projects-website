@@ -1,0 +1,41 @@
+.colored-box {
+    position: absolute; /* Overlaps the hero image */
+    top: 600px; /* Positions the box vertically */
+    left: 0; /* Starts from the left side */
+    width: 90%;
+    height: 125px;
+    padding-right: 5%;
+    background-color: #2994a8; 
+    color: white;
+    display: flex; /* Arranges content horizontally */
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .colored-box img {
+    height: 75px;
+    margin-left: 10%;
+  }
+
+  .content-item p {
+    font-weight: 600;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 0.5rem;
+  }
+
+  @media (max-width: 975px) {
+    .content-item p {
+      font-size: 1rem;
+    }
+
+    .colored-box img {
+      margin-left: 7.5%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .colored-box {
+      display: none;
+    }
+  }

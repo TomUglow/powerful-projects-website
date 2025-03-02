@@ -1,0 +1,94 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 30% 30%; /* Define column widths */
+    grid-template-rows: 50vh 50vh; /* Two rows, each 50vh height */
+    max-width: 100%;
+}
+
+.grid-item {
+    filter: grayscale(100%); /* Make image greyscale initially */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+    overflow: hidden; /* Ensure images don't overflow the grid item */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the grid item */
+}
+
+.grid-item--1 {
+    grid-column-start: 1; /* Start at column 1 */
+    grid-row-start: 1;  /* Start at row 1 */
+    grid-column-end: span 1; /* Span 1 column */
+    grid-row-end: span 2;  /* Span 2 rows */
+}
+
+.grid-item--2 {
+    grid-column-start: 2; /* Start at column 2 */
+    grid-row-start: 1;  /* Start at row 1 */
+    grid-column-end: span 1; /* Span 1 column */
+    grid-row-end: span 1;  /* Span 1 row */
+}
+
+.grid-item--text {
+    background-color: #2994a8; /* Light background for text block */
+    color: white;
+    filter: none;
+    padding: 2.5rem; /* Padding for content */
+    display: flex; /* Center content vertically */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3; /* Start at column 3 */
+    grid-row-start: 1;  /* Start at row 1 */
+    grid-column-end: span 1; /* Span 1 column */
+    grid-row-end: span 1;  /* Span 1 row */
+}
+
+.grid-item--text h1 {
+    padding: 1rem;
+}
+
+.grid-item--text button {
+    background-color: #2994a8; /* Red background for call button */
+    color: #fff;
+    border: 1px solid white;
+    font-weight: 450;
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 2.75rem;
+    border-radius: 25px;
+    cursor: pointer; /* Indicate clickable button */
+}
+
+.grid-item--text button:hover {
+    background-color: white; /* Red background for call button */
+    color: #2994a8;
+    border: 1px solid #2994a8;
+    font-weight: 450;
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 2.75rem;
+    border-radius: 25px;
+    cursor: pointer; /* Indicate clickable button */
+}
+
+.grid-item--3 {
+    grid-column-start: 2; /* Start at column 2 */
+    grid-row-start: 2;  /* Start at row 2 */
+    grid-column-end: span 2; /* Span 2 columns */
+    grid-row-end: span 1;  /* Span 1 row */
+}
+
+.grid-item:hover {
+    filter: grayscale(0); /* Remove greyscale filter on hover */
+}
+
+@media (max-width: 975px) {
+    .grid-container {
+        display: none;
+    }
+  }

@@ -1,0 +1,57 @@
+.emergency-contact {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+  }
+
+  .emergency-contact h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem;
+  }
+
+  .emergency-text {
+    width: 25rem;
+  }
+
+  .emergency-contact p {
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #717070;
+  }
+  
+  .warning-icon {
+    width: 6.5rem;
+    height: 5.75rem;
+  }
+  
+  .emergency-call {
+    background-color: #2994a8; /* Red background for call button */
+    color: #fff;
+    font-weight: 550;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    padding: 1.25rem 4.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer; /* Indicate clickable button */
+  }
+
+  @media (max-width: 425px) {
+    .emergency-contact h1 {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .emergency-call {
+      font-size: 4vw;
+      padding: 6vw 10vw;
+    }
+
+    .emergency-text {
+      width: 20rem;
+    }
+  }

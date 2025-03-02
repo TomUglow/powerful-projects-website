@@ -1,0 +1,116 @@
+.split-section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    width: 100%;
+    height: auto;
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+  }
+  
+  .left-side {
+    width: 70%; 
+    position: relative;
+  }
+  
+  .split-image {
+    max-width: 80%;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 75px;
+  }
+  
+  .overlay-box {
+    position: absolute;
+    top: 80%;
+    margin-left: 15%;
+    transform: translate(-50%, -50%); 
+    background-color: #2994a8; 
+    color: white;
+    text-align: left;
+    align-content: center;
+    width: 12vw;
+    height: 25%;
+    padding-left: 1.5rem;
+  }
+
+  .overlay-box h1 {
+    font-size: 4vw;
+    margin: 0;
+  }
+
+  .overlay-box p {
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+  }
+
+  .about-us-section {
+    text-align: left;
+  }
+
+  .about-us-section h2 {
+    margin: 1rem;
+    font-size: medium;
+  }
+
+  .about-us-section h1 {
+    font-size: 3rem;
+    max-width: 80%;
+    margin: 1rem 0;
+  }
+
+  .about-us-section p {
+    font-size: 1rem;
+    max-width: 80%;
+    margin: 1rem 0;
+    color: rgb(89, 89, 89);
+  }
+  
+  .service-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;  
+    margin-bottom: 0.5rem;
+    width: 60%;
+    padding: 1rem;  
+  }
+  
+  .service-item h3 {
+    font-size: 1.2rem; 
+    text-align: left;
+    color: #333; 
+    margin-right: 1rem;
+  }
+  
+  .service-item button {
+    background-color: transparent;
+    color: #2994a8;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  
+  .service-item p {
+    margin: 0.25rem;
+    color: rgb(89, 89, 89);
+    text-align: left;
+  }
+  
+  .service-item.active p {
+    display: block; 
+  }
+
+  @media (max-width: 975px) {
+    .split-section  {
+      display: none;
+    }
+  }

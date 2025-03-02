@@ -1,0 +1,57 @@
+.thank-you-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('../../assets/images/RS101178_websize.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+  }
+  
+  .thank-you-page::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  z-index: 0;
+}
+
+.thank-you-message {
+  z-index: 1;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.thank-you-message h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.thank-you-message p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.thank-you-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #2994a8;
+  text-decoration: none;
+  border-radius: 25px;
+  border-color: #2994a8;
+  margin-top: 6vh;
+  transition: background-color 0.3s ease;
+}
+
+.thank-you-button:hover {
+  background-color: #ffffff;
+  color: #2994a8;
+}

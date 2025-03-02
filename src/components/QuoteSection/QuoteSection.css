@@ -1,0 +1,110 @@
+.quote-section {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    height: 500px;
+  }
+  
+  .quote-image {
+    flex: 1;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .quote-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area */
+  }
+  
+  .quote-content {
+    flex: 1;
+    background-color: #2994a8;
+    color: white; 
+    display: flexbox;
+    align-items: center; 
+    padding: 2rem;
+    text-align: left;
+  }
+
+  .quote-content h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+  }
+
+  .quote-content h1 {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+  
+  .quote-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 50%;
+    padding: 1rem;
+  }
+
+    .quote-content button {
+    background-color: #2994a8;
+    color: #ffffff;
+    margin-top: 5px;
+    padding: 18px 90px;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /* Enables smooth hover effect */
+  }
+  
+  .quote-content button:hover {
+    background-color: #ffffff;
+    color: #2994a8;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Subtle button shadow */
+  }
+
+  @media (max-width: 768px) {
+    .quote-content p {
+      font-size: 1rem;
+      line-height: 1rem;
+      max-width: 100%;
+    }
+
+    .quote-content button {
+      padding: 2vh 4vh;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .quote-image {
+      display: none;
+    }
+
+    .quote-content {
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    .quote-section {
+      height: 350px;
+    }
+
+    .quote-content h2 {
+      font-size: 0.75rem;
+      padding: 0.5rem;
+      margin-top: 1rem;
+    }
+  
+    .quote-content h1 {
+      font-size: 2.5rem;
+      padding: 1rem;
+    }
+    
+    .quote-content p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      max-width: 100%;
+      padding: 0.5rem;
+    }
+  }
