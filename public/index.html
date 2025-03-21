@@ -5,39 +5,63 @@
     <link rel="icon" href="%PUBLIC_URL%/icon_colour.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Your trusted local electrician in Melbourne, Geelong, and Torquay. We specialize in residential safety checks, commercial installations, EV charger installations. Contact us for a free quote!"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon_colour.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta
+      name="keywords"
+      content="electrician, melbourne electrician, geelong electrician, torquay electrician, residential electrician, commercial electrician, ev charger installation, electrical safety checks"
+    />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon_colour.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Powerful Projects | Electrician Melbourne, Geelong & Torquay</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Electrician",
+        "name": "Powerful Projects",
+        "description": "Your trusted local electrician in Melbourne, Geelong, and Torquay. We specialize in residential safety checks, commercial installations, EV charger installations. Contact us for a free quote!",
+        "url": "https://www.powerfulprojects.com.au/",
+        "telephone": "+61408425907",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Melbourne",
+          "addressRegion": "VIC",
+          "addressCountry": "AU"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "PublicHolidays",
+            "opens": "00:00",
+            "closes": "23:59"
+          }
+        ],
+        "image": "https://www.powerfulprojects.com.au/icon_blackandwhite.jpg",
+        "priceRange": "Contact for free quote",
+        "serviceArea": [
+          "Melbourne",
+          "Geelong",
+          "Torquay"
+        ],
+        "serves": "Residential Safety Checks, Commercial Installations, EV Charger Installation"
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
