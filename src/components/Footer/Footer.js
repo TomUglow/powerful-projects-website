@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="black-footer-content">
           <div className="service-areas">
             <h2>Service Area</h2>
-            <p>Servicing all of Melbourne including Geelong and Torquay</p>
+            <p>Servicing all of Melbourne</p>
             <Link to="/" className='footer-link'>
               <FontAwesomeIcon icon={faHouse} className='home-link'/>
             </Link>

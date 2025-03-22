@@ -46,16 +46,16 @@ const Projects = () => {
   return (
     <div className="projects-page">
       <Helmet> {/* Add Helmet here */}
-        <title>Our Projects | Powerful Projects</title>
-        <meta name="description" content="Showcase of our recent electrical projects in Melbourne, Geelong, and Torquay." /> {/* Add description */}
-        <meta property="og:title" content="Our Projects | Powerful Projects" />
-        <meta property="og:description" content="Showcase of our recent electrical projects in Melbourne, Geelong, and Torquay." />
-        <meta property="og:image" content={"https://www.powerfulprojects.com.au" + logo} />
+        <title>Our Electrical Projects in Melbourne | Powerful Projects</title>
+        <meta name="description" content="Showcase of our recent electrical projects in Melbourne, including cafe installations, restaurant setups, and residential installations. See our work and get a free quote." />
+        <meta property="og:title" content="Our Electrical Projects in Melbourne | Powerful Projects" />
+        <meta property="og:description" content="Showcase of our recent electrical projects in Melbourne, including cafe installations, restaurant setups, and residential installations. See our work and get a free quote." />
+        <meta property="og:image" content={"https://www.powerfulprojects.com.au" + logo.src} />
         <meta property="og:url" content="https://www.powerfulprojects.com.au/projects" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Our Projects | Powerful Projects" />
-        <meta name="twitter:description" content="Showcase of our recent electrical projects in Melbourne, Geelong, and Torquay." />
-        <meta name="twitter:image" content={"https://www.powerfulprojects.com.au" + logo} />
+        <meta property="twitter:title" content="Our Electrical Projects in Melbourne | Powerful Projects" />
+        <meta name="twitter:description" content="Showcase of our recent electrical projects in Melbourne, including cafe installations, restaurant setups, and residential installations. See our work and get a free quote." />
+        <meta property="twitter:image" content={"https://www.powerfulprojects.com.au" + logo.src} />
         <link rel="canonical" href="https://www.powerfulprojects.com.au/projects" />
       </Helmet>
       <ProjectsHead />
