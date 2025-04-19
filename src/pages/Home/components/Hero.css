@@ -1,5 +1,5 @@
 .hero {
-    min-height: 50vh; /* Or a fixed height */
+    min-height: 50vh;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,15 @@
     }
   }
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
+      .hero {
+        min-height: 40vh;
+      }
+        
+      .hero-logo {
+        margin-top: 2vh;
+      }
+      
       .hero p {
         display: none;
       }

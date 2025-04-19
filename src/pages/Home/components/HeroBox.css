@@ -34,7 +34,7 @@
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .colored-box {
       display: none;
     }

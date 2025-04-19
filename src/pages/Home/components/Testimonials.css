@@ -84,7 +84,7 @@
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .testimonials  {
       padding: 1rem 0;
     }
@@ -98,6 +98,6 @@
     }
 
     .testimonials h1 {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
   }

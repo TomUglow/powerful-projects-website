@@ -46,7 +46,7 @@
     margin-top: 0.5rem;
   }
   
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
     .projects-content {
       padding: 1rem 2rem;
     }

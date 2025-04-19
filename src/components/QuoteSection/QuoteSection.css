@@ -76,7 +76,7 @@
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .quote-image {
       display: none;
     }
@@ -99,10 +99,13 @@
   
     .quote-content h1 {
       font-size: 2.5rem;
-      padding: 1rem;
+      padding: 0.5rem;
     }
     
     .quote-content p {
-      display: none;
+      margin: 0 20px;
+      font-size: 1rem;
+      max-width: 100%;
+      padding: 1rem;
     }
   }

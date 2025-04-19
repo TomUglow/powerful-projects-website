@@ -49,7 +49,7 @@
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .our-services-head-image {
       min-height: 150px;
     }
@@ -62,7 +62,7 @@
     .our-services-head-text p {
       margin: 2rem auto;
       width: 90%;
-      font-size: 0.8rem;
+      font-size: 1rem;
       line-height: 1.5rem;
     }
   }
