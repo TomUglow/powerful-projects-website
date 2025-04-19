@@ -40,7 +40,7 @@
     cursor: pointer; /* Indicate clickable button */
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     .emergency-contact h1 {
       text-align: center;
       padding: 1rem;

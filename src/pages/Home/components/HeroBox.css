@@ -7,7 +7,7 @@
     padding-right: 5%;
     background-color: #2994a8; 
     color: white;
-    display: flex; /* Arranges content horizontally */
+    display: flex; 
     flex-direction: row;
     align-items: center;
   }
@@ -34,7 +34,7 @@
     }
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     .colored-box {
       display: none;
     }

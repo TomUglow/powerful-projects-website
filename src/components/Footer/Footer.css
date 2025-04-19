@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .black-footer-content {
     display: flex;
     justify-content: center;

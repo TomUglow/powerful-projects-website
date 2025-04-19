@@ -84,7 +84,7 @@
     }
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     .testimonials  {
       padding: 1rem 0;
     }
